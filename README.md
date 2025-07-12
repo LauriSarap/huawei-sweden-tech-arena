@@ -1,4 +1,5 @@
 # AI-Enabled Robust SVD for Wireless Communication
+Here is a list of topics and questions I must learn before the hackathon.
 
 ## Singular Value Decomposition (SVD)
 
