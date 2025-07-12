@@ -1,7 +1,7 @@
 # AI-Enabled Robust SVD for Wireless Communication
 Here is a list of topics and questions I must learn before the hackathon.
 
-## Singular Value Decomposition (SVD)
+## Singular Value Decomposition (SVD) Basics
 
 **Key concepts**
 * ~~Singular values, singular vectors~~
@@ -9,7 +9,7 @@ Here is a list of topics and questions I must learn before the hackathon.
 * ~~Computational complexity~~
 
 1) ~~How is SVD performed mathematically?~~
-2) What are the limitations of classical SVD in noisy/incomplete data?
+2) ~~What are the limitations of classical SVD in noisy/incomplete data?~~
 
 **SVD Optimizations**
 * Outlier rejection
