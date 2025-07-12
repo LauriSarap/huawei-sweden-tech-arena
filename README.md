@@ -4,11 +4,11 @@ Here is a list of topics and questions I must learn before the hackathon.
 ## Singular Value Decomposition (SVD)
 
 **Key concepts**
-* Singular values, singular vectors
-* Frobenius norm
-* Computational complexity
+* ~~Singular values, singular vectors~~
+* ~~Frobenius norm~~
+* ~~Computational complexity~~
 
-1) How is SVD performed mathematically?
+1) ~~How is SVD performed mathematically?~~
 2) What are the limitations of classical SVD in noisy/incomplete data?
 
 **SVD Optimizations**
