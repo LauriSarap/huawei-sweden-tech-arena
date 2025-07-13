@@ -69,3 +69,7 @@ Here is a list of topics and questions I must learn before the hackathon.
 
 1) How to effectively measure and compare performance against classical SVD?
 2) What are suitable loss functions for training AI SVD models?
+
+## Used materials
+* [Singular Value Decomposition playlist](https://www.youtube.com/playlist?list=PLMrJAkhIeNNSVjnsviglFoY2nXildDCcv)
+* Data Driven Science & Engineering, book by Steven L. Brunton and J. Nathan Kutz
