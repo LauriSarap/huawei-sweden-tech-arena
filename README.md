@@ -12,18 +12,18 @@ Here is a list of topics and questions I must learn before the hackathon.
 2) ~~What are the limitations of classical SVD in noisy/incomplete data?~~
 
 **SVD Optimizations**
-* Outlier rejection
-* Missing data imputation
-* L1-norm SVD, Iterative re-weighting
-* Robust PCA
+* ~~Outlier rejection~~
+* ~~Missing data imputation~~
 
-1) What specific robust SVD algorithms exist?
-2) How do they handle noise/outliers compared to classical SVD?
+1) ~~What specific robust SVD algorithms exist?~~
+2) ~~How do they handle noise/outliers compared to classical SVD?~~
 
 ## Wireless Communication (5G/6G)
 
 **Key Concepts**
-* MIMO, Beamforming, Massive IoT
+* Wireless communication fundamentals
+* Signal processing in wireless systems
+* MIMO and Beamforming
 * Channel State Information (CSI)
 * Precoding, Channel diagonalization
 * Low-latency, High-speed, Energy efficiency
