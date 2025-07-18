@@ -21,54 +21,38 @@ Here is a list of topics and questions I must learn before the hackathon.
 ## Wireless Communication (5G/6G)
 
 **Key Concepts**
-* Wireless communication fundamentals
-* Signal processing in wireless systems
+* ~~Wireless communication fundamentals~~
 * MIMO and Beamforming
 * Channel State Information (CSI)
 * Precoding, Channel diagonalization
 * Low-latency, High-speed, Energy efficiency
 
-* How is SVD traditionally used in MIMO/beamforming?
-* What are the specific computational bottlenecks in 5G/6G signal processing?
+## SVD in Wireless Context
 
-## Neural Network-based Decomposition
+**Key Concepts**
+* MIMO: Multiple antennas, SVD diagonalizes for parallel streams.
+* Beamforming/Precoding: Beam steering, maximizing SNR.
+* Robustness: Regularization, outlier rejection. Dealing with noise.
 
-* Autoencoders, Variational Autoencoders (VAEs)
-* Graph Neural Networks (GNNs) for channel graphs
-* Deep Matrix Factorization
-* Differentiable SVD
+1) How does SVD enable channel diagonalization in MIMO?
+2) What are limitations in noisy CSI estimation?
 
-1) Can neural networks directly learn SVD or its components?
-2) How can NNs approximate low-rank matrices for wireless channels?
-3) Are there complex-valued neural network architectures relevant to this?
+## AI-Powered SVD Approximations
 
-## Low-Rank Approximations (AI-driven)
+**Key Concepts**
+* Neural Decomposition: Autoencoders, differentiable SVD via unfolding (iterative algos as layers).
+* Low-Rank: Truncating to top k singular values; NN compression (pruning/quantization to int8/float16) for dynamic rank.
+* Complex-Valued NNs: Handle wireless signals (e.g., IQ components) with complex activations.
 
-* Neural network compression (pruning, quantization)
-* Randomized SVD, Nyström approximation
-* Sparsity-aware SVD
+1) How can NNs approximate low-rank H for beamforming?
+2) What loss functions suit training (e.g., Frobenius + orthogonality penalty)?
 
-1) How can AI models identify optimal low-rank approximations dynamically?
-2) What precision (e.g., float16, int8) is acceptable for singular values in wireless?
+## Hardware-Aware Optimization
 
-## Hardware-Aware AI & Optimization
-
-* CPU/GPU/FPGA considerations
-* Inference time, Energy consumption
-* Model size, Memory footprint
-
-1) How to design SVD solutions for real-time operation on edge devices?
-2) What are the trade-offs between precision, speed, and energy?
-
-## Benchmarking
-
-* CUDA, PyTorch/TensorFlow optimization
-* Profiling tools (e.g., nvprof, perf)
-* Synthetic channel data generation
-* Performance metrics (throughput, power, accuracy)
-
-1) How to effectively measure and compare performance against classical SVD?
-2) What are suitable loss functions for training AI SVD models?
+**Key Concepts**
+* Constraints: Low-latency (<1ms), energy efficiency for IoT; model size under 100MB.
+* Balancing: Compute (flops), memory (GB), energy (joules) for edge devices.
+* Trade-offs: Precision (float16 ok for singular values) vs. speed/energy.
 
 ## Used materials
 * [Singular Value Decomposition playlist](https://www.youtube.com/playlist?list=PLMrJAkhIeNNSVjnsviglFoY2nXildDCcv)
